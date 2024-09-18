@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trinitas.Activity.Doa">
+
+    <TextView
+        android:id="@+id/doaText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Allah Penyelenggara\n\nAllah engkau yang tidak dapat salah dalam penyelenggaraanmu berilah agar kami percaya akan bimbinganmu dan berilah agar kami dapat menerima apa yang kau berikan serta mengenal dan melaksanakan kehendakmu"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
